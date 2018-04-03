@@ -69,7 +69,7 @@ for (var i = 0; i < squares.length; i++) {
 			//compare color to pickedColor
 			//console.log(clickedColor, pickedColor); To check if clickedcolor and pickedColor types and values match
 				if(clickedColor === pickedColor){
-					messageDisplay.textContent = "Correct!";
+					messageDisplay.textContent = "You Won!!!!";
 					resetButton.textContent = "Play Again?";
 					changeColors(clickedColor);
 					h1.style.backgroundColor = clickedColor;
