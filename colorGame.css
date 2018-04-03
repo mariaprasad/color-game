@@ -45,11 +45,16 @@ h1 {
 #message {
 	display: inline-block; /* inline-block with width 20% will give spacing between the new colors button and easy button*/
 	width: 20%;        /* the empty space takes 20% of its screen*/
+	text-transform: uppercase;
+	color: red;
+	font-weight: 900;
+	font-size: inherit;
+	letter-spacing: 1px;
 }
 
 #stripe {
 	background: white;
-	height: 30px;
+	height: 50px;
 	text-align: center;
 	color: black;
 }
